@@ -1,0 +1,37 @@
+{
+
+  "manifest_version": 2,
+  "name": "YT Overlay Remover",
+  "version": "1.0",
+
+  "description": "Toggle to remove or add back Youtube Video Player overlay",
+
+  "icons": {
+    "48": "icons/ytr48.png",
+    "96": "icons/ytr96.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/ytr16.png",
+      "32": "icons/ytr32.png"
+    }
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "ytoverlayremover@gmail.com"
+    }
+  },
+
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+
+  "background": {
+ 
+    "scripts": ["background.js"]
+ }
+
+}
