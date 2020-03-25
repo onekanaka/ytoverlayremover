@@ -1,3 +1,4 @@
 # Youtube Overlay Remover - Firefox Add-on
 
-Removes Youtube overlay and gradients that block vision in full screen
+Small add-on that removes the Youtube Video Player's overlay that blocks the vision in all view modes including full screen.
+The add-on may be publicly published in the future here https://addons.mozilla.org/en-US/firefox/addon/ytremover/
