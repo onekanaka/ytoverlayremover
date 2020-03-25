@@ -1,10 +1,9 @@
 {
-
   "manifest_version": 2,
-  "name": "YT Overlay Remover",
-  "version": "1.1",
+  "name": "Youtube Overlay Remover",
+  "version": "1.2",
 
-  "description": "Toggle to remove or add back Youtube Video Player overlay",
+  "description": "Toggle to hide or add back Youtube Video Player overlay",
 
   "icons": {
     "48": "icons/ytr48.png",
@@ -30,15 +29,13 @@
   ],
 
   "background": {
- 
     "scripts": ["background.js"]
- },
+  },
 
  "commands": {
   "toggle-feature": {
     "suggested_key": {
-      "default": "Alt+Shift+X",
-      "linux": "Alt+Shift+X"
+      "default": "Alt+Shift+X"
     },
     "description": "Hide Youtube Player Overlay"
   }
